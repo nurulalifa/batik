@@ -1,0 +1,102 @@
+/*Identifier*/
+* {
+    box-sizing : border-box;
+    margin: 0;
+}
+
+body {
+  font-family : 'IBM Plex Sans', sans-serif;
+}
+
+.warpper {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.menu-container {
+    background: #FF058C;;
+    height: 150px
+}
+.logo1 {
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    color: #1A1717;
+    text-align: center;
+}
+.menu {
+    display: flex;
+    height: 20px;
+    float: right;
+}
+.menu li {
+    list-style: none;
+    margin-right: 25px;
+}
+.menu li a {
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+}
+.logo2 {
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    color: #1A1717;
+    display: normal;
+    text-align: center;
+}
+.header-container1 {
+    background: url(images/bg2.png);
+    background-size: cover;
+    height: 100vh
+}
+.drag-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height:30vh;
+    background: #cac9c9;
+}
+.drag {
+    border: 2px dashed #fff;
+    height: 250px;
+    width: 375px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.drag-area.active{
+    border: 2px solid #fff;
+  }
+.drag header {
+    font-size: 18px;
+    color :#000000;
+}
+.drag span {
+    font-size: 12px;
+    font-weight: 300;
+    color :#000000;
+    margin : 10px 0 15px 0;
+}
+.drag button {
+    padding: 10px 25px;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+}
+.drag img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+.garis2 {
+    background: #FF058C;
+    height: 75px
+}

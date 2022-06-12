@@ -1,0 +1,80 @@
+* {
+    box-sizing : border-box;
+    margin: 0;
+}
+
+body {
+  font-family : 'IBM Plex Sans', sans-serif;
+}
+
+/*Homepage*/
+
+.nav-container {
+    background: rgba(219, 2, 93, 0.3);
+    height: 100px
+}
+.warpper {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+}
+nav ul {
+    display: flex;
+}
+nav .logo {
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    color: #1A1717;
+}
+.nav-item li {
+    list-style: none;
+    margin-right: 70px;
+}
+.nav-item li a {
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+}
+.header-container {
+    background: url('/static/bg.png');;
+    background-size: auto;
+    height: 100vh
+}
+.definisi {
+    background: #D9D9D9;
+    width: 100vh;
+    height: 100vh;
+}
+.penjelasan {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    text-align: center;
+}
+.button {
+    background: #fc5185;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+.button:hover {
+    background: #3f72af;
+    text-decoration: none;
+}
+.garis {
+    background: rgba(219, 2, 93, 0.3);
+    height: 50px
+}

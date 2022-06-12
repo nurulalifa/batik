@@ -1,0 +1,80 @@
+/*About Us*/
+* {
+    box-sizing : border-box;
+    margin: 0;
+}
+
+body {
+  font-family : 'IBM Plex Sans', sans-serif;
+}
+
+.warpper {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.logo1 {
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    color: #1A1717;
+    text-align: center;
+}
+.about {
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    color: #1A1717;
+    text-align: center;
+}
+.list-container {
+    background: rgba(219, 2, 93, 0.3);
+    height: 110px;
+}
+.list {
+    display: flex;
+    height: 30px;
+    float: right;
+}
+.list li {
+    list-style: none;
+    margin-right: 25px;
+}
+.list li a {
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+}
+.tubuh {
+    background-color:url(images/bg3.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.kelompok {
+    margin: 95px auto;
+    background: rgba(219, 2, 93, 0.3);
+    height: 17vh;
+    font-size: 24px;
+}
+.anggota {
+    margin: 28px auto;
+    background: rgba(219, 2, 93, 0.3);
+    height: 67vh;
+    font-size: 18px;
+}
+.anggota ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.anggota li {
+    list-style: none;
+    margin-right: 60px;
+}
+.garis3 {
+    background: rgba(219, 2, 93, 0.3);
+    height: 75px;
+}
